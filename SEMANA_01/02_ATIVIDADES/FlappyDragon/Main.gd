@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
-var vscore = 0
-var x = 1.5 
-var y = 1.5 
+var status = 1 #status define se o gragao esta vivo ou não. qualquer numero diferente de 1 é game over
+var vscore = 0 #é o placar inicial
+var x = 1.5 #é a posição inicial x do dragão
+var y = 1.5  #é a posição inicial y do dragão
 
 # executa essa função ao carregar o jogo
 func _ready():
