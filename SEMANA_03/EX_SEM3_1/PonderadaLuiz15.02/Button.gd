@@ -20,17 +20,11 @@ func _on_Button_pressed():
 	get_parent().get_node("Label").text = "Nome: Zezinho; Idade: 32; Profissão: Engenheiro Civíl"
 	pass # Replace with function body.
 
-
-func _on_Button2_pressed():
-	get_parent().get_node("Label2").text = "Nome: seu nome; Idade: sua idade; Profissão: sua profissão"
-	pass # Replace with function body.
-
-
 func _on_Button3_pressed():
 	get_parent().get_node("Label").text = "A lista vai aparecer aqui"
 	pass # Replace with function body.
 	
 
 func _on_Button4_pressed():
-	get_parent().get_node("Label3").text = "Você inseriu o número 3"
+	get_parent().get_node("LineEdit4").text = "Obrigado por inserir seu número!"
 	pass # Replace with function body.
