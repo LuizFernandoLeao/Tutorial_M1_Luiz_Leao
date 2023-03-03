@@ -1,0 +1,74 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Button.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 19.0
+margin_top = 18.0
+margin_right = 119.0
+margin_bottom = 38.0
+text = "Exemplo de lista"
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 19.0
+margin_top = 53.0
+margin_right = 193.0
+margin_bottom = 90.0
+text = "A lista vai aparecer aqui
+"
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 144.0
+margin_top = 18.0
+margin_right = 156.0
+margin_bottom = 34.0
+text = "Voltar"
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 15.0
+margin_top = 252.0
+margin_right = 133.0
+margin_bottom = 272.0
+text = "Verificar número"
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 20.0
+margin_top = 106.0
+margin_right = 135.0
+margin_bottom = 120.0
+text = "Insira seus dados"
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 20.0
+margin_top = 130.0
+margin_right = 633.0
+margin_bottom = 154.0
+text = "Nome:"
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+margin_left = 20.0
+margin_top = 159.0
+margin_right = 631.0
+margin_bottom = 183.0
+text = "Idade:"
+
+[node name="LineEdit3" type="LineEdit" parent="."]
+margin_left = 21.0
+margin_top = 188.0
+margin_right = 634.0
+margin_bottom = 212.0
+text = "Profissão:"
+
+[node name="LineEdit4" type="LineEdit" parent="."]
+margin_left = 16.0
+margin_top = 279.0
+margin_right = 362.0
+margin_bottom = 303.0
+text = "Insira um número"
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
+[connection signal="pressed" from="Button3" to="Button" method="_on_Button3_pressed"]
+[connection signal="pressed" from="Button4" to="Button" method="_on_Button4_pressed"]
